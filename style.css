@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.parallax-bg{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    pointer-events: none;
+    /* min-height: 100vh; */
+    /* border: 1px solid red; */
+}
+
+.parallax{
+    transition: 0.45s cubic-bezier(.2,.49,.32,.99);
+    /* pointer-events: none; */
+   
+}
+
+.layer8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: calc(50%);
+    left: calc(50%);
+    z-index: 1;
+}
+.layer6{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: calc(50%);
+    left: calc(50%);
+    z-index: 2;
+}
+.layer5{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;;
+    top: calc(50%);
+    left: calc(50%);
+    z-index: 3;
+}
+.layer4{
+    position: absolute;
+    object-fit: cover;
+    width: 150%;
+    height: 100%;
+    top: calc(50%);
+    left: calc(50%);
+    z-index: 4;
+}
+.layer3{
+    position: absolute;
+    object-fit: cover;
+    width: 110%;
+    height: 100%;
+    top: calc(50%);
+    left: calc(50%);
+    z-index: 6;
+}
+.layer2{
+    position: absolute;
+    object-fit: cover;
+    width: 110%;
+    height: 105%;
+    top: calc(50%);
+    left: calc(50%);
+    z-index: 7;
+}
+.layer1{
+    position: absolute;
+    object-fit: cover;
+    width: 110%;
+    height: 110%;
+    top: calc(50%);
+    left: calc(50%);
+    z-index: 8;
+}
+
+.text{
+    width: 100%;
+    padding: 0;
+    font-size: 200px;
+    color: #381b30;
+    font-weight: bold;
+    position: absolute;
+    top: calc(60%);
+    left: calc(80%);
+    z-index: 5;
+}
+
+/* .layer7{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+} */
